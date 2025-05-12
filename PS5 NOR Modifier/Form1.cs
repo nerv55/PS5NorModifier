@@ -1,19 +1,12 @@
 using System.Diagnostics;
 using System.Globalization;
-using System.IO;
+using System.IO.Ports;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Windows.Forms;
-using System.IO.Ports;
-using System;
-using System.Threading;
-using System.Collections.Generic;
-using static System.Windows.Forms.LinkLabel;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
-using System.Net;
 using System.Xml;
-using System.Security.Policy;
+
+
 
 namespace PS5_NOR_Modifier
 {
@@ -43,7 +36,7 @@ namespace PS5_NOR_Modifier
         // We want this app to work offline, so let's declare where the local "offline" database will be stored
         string localDatabaseFile = "errorDB.xml";
 
-        static SerialPort UARTSerial = new SerialPort();
+        SerialPort UARTSerial = new SerialPort("COM10",9600);
 
         /// <summary>
         /// With thanks to  @jjxtra on Github. The code has already been created and there's no need to reinvent the wheel is there?
@@ -85,6 +78,7 @@ namespace PS5_NOR_Modifier
             // Upon first launch, we need to get a list of COM ports available for UART
             string[] ports = SerialPort.GetPortNames();
             comboComPorts.Items.Clear();
+            comboComPorts.Items.Add(new string("No PORTS"));
             comboComPorts.Items.AddRange(ports);
             comboComPorts.SelectedIndex = 0;
             btnConnectCom.Enabled = true;
@@ -828,6 +822,7 @@ namespace PS5_NOR_Modifier
             // When the "refresh ports" button is pressed, we need to refresh the list of available COM ports for UART
             string[] ports = SerialPort.GetPortNames();
             comboComPorts.Items.Clear();
+            comboComPorts.Items.Add(new string("No PORTS"));
             comboComPorts.Items.AddRange(ports);
             comboComPorts.SelectedIndex = 0;
             btnConnectCom.Enabled = true;

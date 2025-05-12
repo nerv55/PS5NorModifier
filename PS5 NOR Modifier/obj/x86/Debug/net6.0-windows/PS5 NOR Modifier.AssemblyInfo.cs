@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PS5 NOR Modifier")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3064e07b65c3387d378995a653742484adf2d50b")]
 [assembly: System.Reflection.AssemblyProductAttribute("PS5 NOR Modifier")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PS5 NOR Modifier")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
