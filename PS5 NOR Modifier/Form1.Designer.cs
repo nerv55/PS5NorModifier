@@ -196,7 +196,6 @@ namespace PS5_NOR_Modifier
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(87, 15);
             this.label6.TabIndex = 9;
-            //this.label6.Text = "Dump Results:";
             this.label6.Text = resources.GetString("label6");
             // 
             // label7
@@ -207,7 +206,6 @@ namespace PS5_NOR_Modifier
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(85, 15);
             this.label7.TabIndex = 10;
-            //this.label7.Text = "Serial Number:";
             this.label7.Text = resources.GetString("label7");
             // 
             // label9
@@ -218,7 +216,7 @@ namespace PS5_NOR_Modifier
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(66, 15);
             this.label9.TabIndex = 12;
-            //this.label9.Text = "PS5 Model:";
+            
             this.label9.Text = resources.GetString("label9");
             // 
             // label10
@@ -229,7 +227,7 @@ namespace PS5_NOR_Modifier
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(51, 15);
             this.label10.TabIndex = 13;
-            //this.label10.Text = "File Size:";
+           
             this.label10.Text = resources.GetString("label10");
             // 
             // serialNumber
@@ -272,7 +270,7 @@ namespace PS5_NOR_Modifier
             this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 10, 0);
             this.statusStrip1.Size = new System.Drawing.Size(847, 22);
             this.statusStrip1.TabIndex = 18;
-            //this.statusStrip1.Text = "statusStrip1";
+            
             this.statusStrip1.Text = resources.GetString("statusStrip1");
             // 
             // toolStripStatusLabel1
@@ -290,7 +288,7 @@ namespace PS5_NOR_Modifier
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(80, 15);
             this.label8.TabIndex = 20;
-            //this.label8.Text = "Board Variant:";
+           
             this.label8.Text= resources.GetString("label8");
             // 
             // boardVariant
@@ -312,7 +310,7 @@ namespace PS5_NOR_Modifier
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(84, 15);
             this.label11.TabIndex = 22;
-            //this.label11.Text = "Modify Values";
+           
             this.label11.Text = resources.GetString("label11");
             // 
             // convertToDigitalEditionButton
@@ -322,7 +320,7 @@ namespace PS5_NOR_Modifier
             this.convertToDigitalEditionButton.Name = "convertToDigitalEditionButton";
             this.convertToDigitalEditionButton.Size = new System.Drawing.Size(150, 46);
             this.convertToDigitalEditionButton.TabIndex = 23;
-            //this.convertToDigitalEditionButton.Text = "Save New\r\nBIOS Information";
+           
             this.convertToDigitalEditionButton.Text = resources.GetString("convertToDigitalEditionButton");
             this.convertToDigitalEditionButton.UseVisualStyleBackColor = true;
             this.convertToDigitalEditionButton.Click += new System.EventHandler(this.convertToDigitalEditionButton_Click);
@@ -424,7 +422,7 @@ namespace PS5_NOR_Modifier
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(387, 21);
             this.label15.TabIndex = 35;
-            //this.label15.Text = "This project is sponsored by www.consolefix.shop";
+            
             this.label15.Text = resources.GetString("label15");
             this.label15.Click += new System.EventHandler(this.label15_Click);
             // 
@@ -435,7 +433,7 @@ namespace PS5_NOR_Modifier
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(104, 15);
             this.label16.TabIndex = 36;
-            //this.label16.Text = "WiFi Mac Address:";
+           
             this.label16.Text = resources.GetString("label16");
             // 
             // macAddressInfo
@@ -463,7 +461,7 @@ namespace PS5_NOR_Modifier
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(104, 15);
             this.label18.TabIndex = 38;
-            //this.label18.Text = "LAN Mac Address:";
+           
             this.label18.Text = resources.GetString("label18");
             // 
             // moboSerialInfo
@@ -482,7 +480,7 @@ namespace PS5_NOR_Modifier
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(111, 15);
             this.label19.TabIndex = 40;
-            //this.label19.Text = "Motherboard Serial:";
+            
             this.label19.Text = resources.GetString("label19");
             // 
             // label17
@@ -492,7 +490,7 @@ namespace PS5_NOR_Modifier
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(108, 15);
             this.label17.TabIndex = 42;
-            //this.label17.Text = "WiFi MAC Address:";
+            
             this.label17.Text = resources.GetString("label17");
             // 
             // wifiMacAddressTextbox
@@ -518,7 +516,7 @@ namespace PS5_NOR_Modifier
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(104, 15);
             this.label20.TabIndex = 45;
-            //this.label20.Text = "LAN Mac Address:";
+           
             this.label20.Text = resources.GetString("label20");
             // 
             // tabControl1
@@ -568,7 +566,7 @@ namespace PS5_NOR_Modifier
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(813, 283);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "NOR Modifier";
+            this.tabPage1.Text = resources.GetString("tabPage1");
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // tabPage2
@@ -595,7 +593,7 @@ namespace PS5_NOR_Modifier
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(813, 283);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "UART Communication";
+            this.tabPage2.Text = resources.GetString("tabPage2");
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // btnSendCommand
@@ -604,7 +602,7 @@ namespace PS5_NOR_Modifier
             this.btnSendCommand.Name = "btnSendCommand";
             this.btnSendCommand.Size = new System.Drawing.Size(75, 23);
             this.btnSendCommand.TabIndex = 16;
-            this.btnSendCommand.Text = "Send";
+            this.btnSendCommand.Text = resources.GetString("btnSendCommand");
             this.btnSendCommand.UseVisualStyleBackColor = true;
             this.btnSendCommand.Click += new System.EventHandler(this.btnSendCommand_Click);
             // 
@@ -633,7 +631,8 @@ namespace PS5_NOR_Modifier
             this.chkUseOffline.Name = "chkUseOffline";
             this.chkUseOffline.Size = new System.Drawing.Size(132, 19);
             this.chkUseOffline.TabIndex = 13;
-            this.chkUseOffline.Text = "Use offline database";
+            
+            this.chkUseOffline.Text = resources.GetString("chkUseOffline");
             this.chkUseOffline.UseVisualStyleBackColor = true;
             // 
             // btnDownloadDatabase
@@ -642,7 +641,7 @@ namespace PS5_NOR_Modifier
             this.btnDownloadDatabase.Name = "btnDownloadDatabase";
             this.btnDownloadDatabase.Size = new System.Drawing.Size(156, 23);
             this.btnDownloadDatabase.TabIndex = 12;
-            this.btnDownloadDatabase.Text = "Download Error Database";
+            this.btnDownloadDatabase.Text = resources.GetString("btnDownloadDatabase");
             this.btnDownloadDatabase.UseVisualStyleBackColor = true;
             this.btnDownloadDatabase.Click += new System.EventHandler(this.btnDownloadDatabase_Click);
             // 
@@ -652,7 +651,7 @@ namespace PS5_NOR_Modifier
             this.btnRefreshPorts.Name = "btnRefreshPorts";
             this.btnRefreshPorts.Size = new System.Drawing.Size(89, 23);
             this.btnRefreshPorts.TabIndex = 11;
-            this.btnRefreshPorts.Text = "Refresh Ports";
+            this.btnRefreshPorts.Text = resources.GetString("btnRefreshPorts");
             this.btnRefreshPorts.UseVisualStyleBackColor = true;
             this.btnRefreshPorts.Click += new System.EventHandler(this.btnRefreshPorts_Click);
             // 
@@ -662,7 +661,7 @@ namespace PS5_NOR_Modifier
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(156, 23);
             this.button3.TabIndex = 10;
-            this.button3.Text = "Clear Output Window";
+            this.button3.Text = resources.GetString("button3");
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -691,7 +690,7 @@ namespace PS5_NOR_Modifier
             this.btnClearErrorCodes.Name = "btnClearErrorCodes";
             this.btnClearErrorCodes.Size = new System.Drawing.Size(118, 23);
             this.btnClearErrorCodes.TabIndex = 7;
-            this.btnClearErrorCodes.Text = "Clear Error Codes";
+            this.btnClearErrorCodes.Text = resources.GetString("btnClearErrorCodes");
             this.btnClearErrorCodes.UseVisualStyleBackColor = true;
             this.btnClearErrorCodes.Click += new System.EventHandler(this.btnClearErrorCodes_Click);
             // 
@@ -711,7 +710,7 @@ namespace PS5_NOR_Modifier
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(107, 23);
             this.button1.TabIndex = 5;
-            this.button1.Text = "Get Error Codes";
+            this.button1.Text = resources.GetString("button1");
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -729,7 +728,7 @@ namespace PS5_NOR_Modifier
             this.btnDisconnectCom.Name = "btnDisconnectCom";
             this.btnDisconnectCom.Size = new System.Drawing.Size(75, 23);
             this.btnDisconnectCom.TabIndex = 3;
-            this.btnDisconnectCom.Text = "Disconnect";
+            this.btnDisconnectCom.Text = resources.GetString("btnDisconnectCom");
             this.btnDisconnectCom.UseVisualStyleBackColor = true;
             this.btnDisconnectCom.Click += new System.EventHandler(this.btnDisconnectCom_Click);
             // 
@@ -739,7 +738,7 @@ namespace PS5_NOR_Modifier
             this.btnConnectCom.Name = "btnConnectCom";
             this.btnConnectCom.Size = new System.Drawing.Size(75, 23);
             this.btnConnectCom.TabIndex = 2;
-            this.btnConnectCom.Text = "Connect";
+            this.btnConnectCom.Text = resources.GetString("btnConnectCom");
             this.btnConnectCom.UseVisualStyleBackColor = true;
             this.btnConnectCom.Click += new System.EventHandler(this.btnConnectCom_Click);
             // 
@@ -750,7 +749,7 @@ namespace PS5_NOR_Modifier
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(61, 15);
             this.label3.TabIndex = 0;
-            this.label3.Text = "Com Port:";
+            this.label3.Text = resources.GetString("label3");
             // 
             // label23
             // 
@@ -789,7 +788,7 @@ namespace PS5_NOR_Modifier
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
-            this.Text = "PS5 NOR Modifier";
+            this.Text = resources.GetString("Form1");
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
