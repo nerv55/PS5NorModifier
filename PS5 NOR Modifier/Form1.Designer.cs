@@ -1,4 +1,7 @@
-﻿namespace PS5_NOR_Modifier
+﻿using System.Reflection;
+using System.Resources;
+
+namespace PS5_NOR_Modifier
 {
     partial class Form1
     {
@@ -28,6 +31,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+           
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -127,7 +131,8 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(277, 41);
             this.label2.TabIndex = 2;
-            this.label2.Text = "PS5 NOR Modifier";
+            //this.label2.Text = "PS5 NOR Modifier";
+            this.label2.Text = resources.GetString("label2");
             // 
             // pictureBox2
             // 
@@ -160,7 +165,8 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(102, 15);
             this.label5.TabIndex = 6;
-            this.label5.Text = "Select NOR Dump";
+            //this.label5.Text = "Select NOR Dump";
+            this.label5.Text = resources.GetString("label5");
             // 
             // fileLocationBox
             // 
@@ -190,7 +196,8 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(87, 15);
             this.label6.TabIndex = 9;
-            this.label6.Text = "Dump Results:";
+            //this.label6.Text = "Dump Results:";
+            this.label6.Text = resources.GetString("label6");
             // 
             // label7
             // 
@@ -200,7 +207,8 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(85, 15);
             this.label7.TabIndex = 10;
-            this.label7.Text = "Serial Number:";
+            //this.label7.Text = "Serial Number:";
+            this.label7.Text = resources.GetString("label7");
             // 
             // label9
             // 
@@ -210,7 +218,8 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(66, 15);
             this.label9.TabIndex = 12;
-            this.label9.Text = "PS5 Model:";
+            //this.label9.Text = "PS5 Model:";
+            this.label9.Text = resources.GetString("label9");
             // 
             // label10
             // 
@@ -220,7 +229,8 @@
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(51, 15);
             this.label10.TabIndex = 13;
-            this.label10.Text = "File Size:";
+            //this.label10.Text = "File Size:";
+            this.label10.Text = resources.GetString("label10");
             // 
             // serialNumber
             // 
@@ -262,13 +272,15 @@
             this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 10, 0);
             this.statusStrip1.Size = new System.Drawing.Size(847, 22);
             this.statusStrip1.TabIndex = 18;
-            this.statusStrip1.Text = "statusStrip1";
+            //this.statusStrip1.Text = "statusStrip1";
+            this.statusStrip1.Text = resources.GetString("statusStrip1");
             // 
             // toolStripStatusLabel1
             // 
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
             this.toolStripStatusLabel1.Size = new System.Drawing.Size(135, 17);
             this.toolStripStatusLabel1.Text = "Status: Waiting for input";
+            this.toolStripStatusLabel1.Text = resources.GetString("toolStripStatusLabel1");
             // 
             // label8
             // 
@@ -278,11 +290,12 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(80, 15);
             this.label8.TabIndex = 20;
-            this.label8.Text = "Board Variant:";
+            //this.label8.Text = "Board Variant:";
+            this.label8.Text= resources.GetString("label8");
             // 
             // boardVariant
             // 
-            this.boardVariant.AutoSize = true;
+           this.boardVariant.AutoSize = true;
             this.boardVariant.Location = new System.Drawing.Point(124, 130);
             this.boardVariant.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.boardVariant.Name = "boardVariant";
@@ -299,7 +312,8 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(84, 15);
             this.label11.TabIndex = 22;
-            this.label11.Text = "Modify Values";
+            //this.label11.Text = "Modify Values";
+            this.label11.Text = resources.GetString("label11");
             // 
             // convertToDigitalEditionButton
             // 
@@ -308,7 +322,8 @@
             this.convertToDigitalEditionButton.Name = "convertToDigitalEditionButton";
             this.convertToDigitalEditionButton.Size = new System.Drawing.Size(150, 46);
             this.convertToDigitalEditionButton.TabIndex = 23;
-            this.convertToDigitalEditionButton.Text = "Save New\r\nBIOS Information";
+            //this.convertToDigitalEditionButton.Text = "Save New\r\nBIOS Information";
+            this.convertToDigitalEditionButton.Text = resources.GetString("convertToDigitalEditionButton");
             this.convertToDigitalEditionButton.UseVisualStyleBackColor = true;
             this.convertToDigitalEditionButton.Click += new System.EventHandler(this.convertToDigitalEditionButton_Click);
             // 
@@ -354,7 +369,8 @@
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(85, 15);
             this.label12.TabIndex = 30;
-            this.label12.Text = "Serial Number:";
+            //this.label12.Text = "Serial Number:";
+            this.label12.Text = resources.GetString("label12");
             // 
             // label13
             // 
@@ -364,7 +380,8 @@
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(80, 15);
             this.label13.TabIndex = 31;
-            this.label13.Text = "Board Variant:";
+            //this.label13.Text = "Board Variant:";
+            this.label13.Text = resources.GetString("label13");
             // 
             // serialNumberTextbox
             // 
@@ -382,7 +399,8 @@
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(66, 15);
             this.label14.TabIndex = 33;
-            this.label14.Text = "PS5 Model:";
+            //this.label14.Text = "PS5 Model:";
+            this.label14.Text = resources.GetString("label14");
             // 
             // boardModelSelectionBox
             // 
@@ -406,7 +424,8 @@
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(387, 21);
             this.label15.TabIndex = 35;
-            this.label15.Text = "This project is sponsored by www.consolefix.shop";
+            //this.label15.Text = "This project is sponsored by www.consolefix.shop";
+            this.label15.Text = resources.GetString("label15");
             this.label15.Click += new System.EventHandler(this.label15_Click);
             // 
             // label16
@@ -416,7 +435,8 @@
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(104, 15);
             this.label16.TabIndex = 36;
-            this.label16.Text = "WiFi Mac Address:";
+            //this.label16.Text = "WiFi Mac Address:";
+            this.label16.Text = resources.GetString("label16");
             // 
             // macAddressInfo
             // 
@@ -443,7 +463,8 @@
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(104, 15);
             this.label18.TabIndex = 38;
-            this.label18.Text = "LAN Mac Address:";
+            //this.label18.Text = "LAN Mac Address:";
+            this.label18.Text = resources.GetString("label18");
             // 
             // moboSerialInfo
             // 
@@ -461,7 +482,8 @@
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(111, 15);
             this.label19.TabIndex = 40;
-            this.label19.Text = "Motherboard Serial:";
+            //this.label19.Text = "Motherboard Serial:";
+            this.label19.Text = resources.GetString("label19");
             // 
             // label17
             // 
@@ -470,7 +492,8 @@
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(108, 15);
             this.label17.TabIndex = 42;
-            this.label17.Text = "WiFi MAC Address:";
+            //this.label17.Text = "WiFi MAC Address:";
+            this.label17.Text = resources.GetString("label17");
             // 
             // wifiMacAddressTextbox
             // 
@@ -495,7 +518,8 @@
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(104, 15);
             this.label20.TabIndex = 45;
-            this.label20.Text = "LAN Mac Address:";
+            //this.label20.Text = "LAN Mac Address:";
+            this.label20.Text = resources.GetString("label20");
             // 
             // tabControl1
             // 
@@ -599,7 +623,8 @@
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(186, 15);
             this.label24.TabIndex = 14;
-            this.label24.Text = "Send custom command via UART:";
+            //this.label24.Text = "Send custom command via UART:";
+            this.label24.Text = resources.GetString("label24");
             // 
             // chkUseOffline
             // 
@@ -657,7 +682,8 @@
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(48, 15);
             this.label22.TabIndex = 8;
-            this.label22.Text = "Output:";
+            //this.label22.Text = "Output:";
+            this.label22.Text = resources.GetString("label22");
             // 
             // btnClearErrorCodes
             // 
@@ -676,7 +702,8 @@
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(52, 15);
             this.label21.TabIndex = 6;
-            this.label21.Text = "Options:";
+            //this.label21.Text = "Options:";
+            this.label21.Text = resources.GetString("label21");
             // 
             // button1
             // 
@@ -733,7 +760,8 @@
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(215, 15);
             this.label23.TabIndex = 47;
-            this.label23.Text = "and UART stuff too... BwE can SUCK IT!";
+            //this.label23.Text = "and UART stuff too... BwE can SUCK IT!";
+            this.label23.Text = resources.GetString("label23");
             // 
             // label25
             // 

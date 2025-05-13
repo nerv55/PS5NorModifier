@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>El modificador PS5 NOR es una herramienta GUI de Windows creada por TheCod3r para reescribir archivos ROM NI flash de forma rápida y sencilla.
+TheCod3r es un técnico de hardware y desarrollador de software aficionado que dedica mucho tiempo a la investigación y el desarrollo de la PS5,
+Consolas de la serie Xbox, etc. Recuerde que esto lleva tiempo, así que si encuentra algún valor en mi software, considere apoyarme con una donación.</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Por favor, considere apoyar mi trabajo y tiempo con una pequeña donación. Tu contribución hará feliz mi billetera y ayudará a alimentar mi
+¡adicción al café! Haga clic aquí para donar. ¡Incluso un dólar ayuda :) ¡No olvides suscribirte a mí en YouTube también!</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="statusStrip1.TrayLocation" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>Puedes enviar comandos personalizados
+con UART usando esta característica. Nota:
+que cualquier comando ingresado aquí
+devolverá resultados sin analizar. Por favor
+asegurate  de saber lo que haces
+, enviar comandos inseguros
+puede dañar su dispositivo.</value>
+  </data>
+  <data name="label5" xml:space="preserve">
+    <value>Selecciona el Volcado NOR </value>
+  </data>
+  <data name="toolStripStatusLabel1" xml:space="preserve">
+    <value>Estado: Esperando por Entrada</value>
+  </data>
+  <data name="browseFileButton" xml:space="preserve">
+    <value>Navegar</value>
+  </data>
+  <data name="btnClearErrorCodes" xml:space="preserve">
+    <value>Limpiar Codigos de Error</value>
+  </data>
+  <data name="btnConnectCom" xml:space="preserve">
+    <value>Conectar</value>
+  </data>
+  <data name="btnDisconnectCom" xml:space="preserve">
+    <value>Desconectar</value>
+  </data>
+  <data name="btnDownloadDatabase" xml:space="preserve">
+    <value>Descargar Base de Datos de Error</value>
+  </data>
+  <data name="btnRefreshPorts" xml:space="preserve">
+    <value>Refrescar Lista de Puertos</value>
+  </data>
+  <data name="btnSendCommand" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="button1" xml:space="preserve">
+    <value>Obtener Codigos de Error</value>
+  </data>
+  <data name="label9" xml:space="preserve">
+    <value>Modelo PS5:</value>
+  </data>
+  <data name="label6" xml:space="preserve">
+    <value>Resultado del Volcado</value>
+  </data>
+  <data name="label8" xml:space="preserve">
+    <value>Variante de la Tarjeta Principal:</value>
+  </data>
+  <data name="label7" xml:space="preserve">
+    <value>Numero de Serie:</value>
+  </data>
+  <data name="tabPage2" xml:space="preserve">
+    <value>Comunicacion UART</value>
+  </data>
+  <data name="tabPage1" xml:space="preserve">
+    <value>Modificador NOR</value>
+  </data>
+  <data name="statusStrip1" xml:space="preserve">
+    <value>estado</value>
+  </data>
+  <data name="label3" xml:space="preserve">
+    <value>Puerto Serial</value>
+  </data>
+  <data name="label24" xml:space="preserve">
+    <value>Enviar comando personalizado via UART:</value>
+  </data>
+  <data name="label23" xml:space="preserve">
+    <value>y cosas UART tambien... BwE puede CHUPARLO!</value>
+  </data>
+  <data name="label22" xml:space="preserve">
+    <value>Salida:</value>
+  </data>
+  <data name="label21" xml:space="preserve">
+    <value>Opcion:</value>
+  </data>
+  <data name="label20" xml:space="preserve">
+    <value>Direccion MAC LAN:</value>
+  </data>
+  <data name="label2" xml:space="preserve">
+    <value>PS5 NOR Modificador</value>
+  </data>
+  <data name="label19" xml:space="preserve">
+    <value>Serial de la Tarjeta Principal:</value>
+  </data>
+  <data name="label18" xml:space="preserve">
+    <value>Direccion MAC LAN:</value>
+  </data>
+  <data name="label17" xml:space="preserve">
+    <value>Direccion MAC WiFi:</value>
+  </data>
+  <data name="label16" xml:space="preserve">
+    <value>Direccion MAC WiFi:</value>
+  </data>
+  <data name="label15" xml:space="preserve">
+    <value>Este proyecto es patrocinado por  www.consolefix.shop</value>
+  </data>
+  <data name="label14" xml:space="preserve">
+    <value>Modelo PS5:</value>
+  </data>
+  <data name="label13" xml:space="preserve">
+    <value>Variante de la Tarjeta Principal:</value>
+  </data>
+  <data name="label12" xml:space="preserve">
+    <value>Numero de Serie:</value>
+  </data>
+  <data name="label11" xml:space="preserve">
+    <value>Modificar Valores</value>
+  </data>
+  <data name="label10" xml:space="preserve">
+    <value>Tamaño del Archivo:</value>
+  </data>
+  <data name="Form1" xml:space="preserve">
+    <value>Modificador PS5 NOR</value>
+  </data>
+  <data name="convertToDigitalEditionButton" xml:space="preserve">
+    <value>Salvar Nueva\r\n Informacion del BIOS</value>
+  </data>
+  <data name="chkUseOffline" xml:space="preserve">
+    <value>Usar Base de Datos Local</value>
+  </data>
+  <data name="button3" xml:space="preserve">
+    <value>Limpiar Datos de Salida</value>
+  </data>
+</root>
